@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Home Credit</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+  <nav class="red" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="https://www.homecredit.net/" class="brand-logo">
+        <img src="https://www.homecredit.vn/img/logo-hc2016-main-red.png" width="20%"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="https://getbootstrap.com/docs/4.3/components/navbar/">Navbar Link</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="https://getbootstrap.com/docs/4.3/components/navbar/">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+            <img src="https://www.sas.com/fr_fr/industry/banking/gestion-des-fraudes-dans-les-banques/_jcr_content/par/styledcontainer/image.img.jpg/1457718470091.jpg" width="100%">
+    <div class="container">
+      <h1 class="header center black-text">Loan approval verification</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Predict your chances to recieve a loan approval from Home Credit
+        <br>
+        </h5>
+      </div>
+      <br><br>
+    <br><br>
+    <div class="row">
+    <form action='/predict' method="post" class="col s12">
+      <div class="row center">
+        <div class="input-field col s4">
+            <label for="first_name"><b>Enter your loan Request ID (SK_ID_CURR)</b></label>
+            <br><br>
+          <input placeholder="Enter your ID" name="Loan request ID" id="first_name" type="text" class="validate">
+        </div>
+      </div>
+
+      <div class="row center">    
+          <br><br>
+          <button type="submit" class="btn-large waves-effect waves-light red">Get Your Results</button>
+      </div>
+    </form>
+      </div>
+
+    </div>
+  </div>
+
+
+    <br><br>
+  </div>
+  </div>>
+
+  <footer class="page-footer red">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Our Company</h5>
+          <p class="grey-text text-lighten-4">Founded in 1997, Home Credit is an international consumer finance provider with operations in 9 countries. 
+              We offer our customers point-of-sale (POS) loans, cash loans and revolving loan products through our online and physical distribution network.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">More About Us</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.homecredit.net/about-us/our-history.aspx">Our History</a></li>
+            <li><a class="white-text" href="https://www.homecredit.net/about-us/our-products.aspx">Our Products</a></li>
+            <li><a class="white-text" href="https://www.homecredit.net/about-us/our-group-structure.aspx">Our Corporate Structure</a></li>
+            <li><a class="white-text" href="https://www.homecredit.net/about-us/our-vision-and-business-model.aspx">Our Business Model</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect With Us</h5>
+          <ul>
+            <li><a class="white-text" href="https://customers.homecredit.net/">Our Customers</a></li>
+            <li><a class="white-text" href="https://people.homecredit.net/">Our People</a></li>
+            <li><a class="white-text" href="https://www.homecredit.net/careers.aspx">Careers Overview</a></li>
+            <li><a class="white-text" href="https://www.homecredit.net/careers/recruitment-opportunities.aspx">Recruitement Opportunities</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="white-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./static/js/materialize.js"></script>
+  <script src="./static/js/init.js"></script>
+
+  </body>
+</html>
